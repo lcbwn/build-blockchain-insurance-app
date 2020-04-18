@@ -122,7 +122,7 @@ class Container extends React.Component {
               <div>
                 <h2 className='ibm-h2'
                   style={{ paddingTop: '10px', paddingLeft: '10px' }}>
-                  <FormattedMessage id='Block Explorer' />
+                  <FormattedMessage id='区块链浏览器' />
                 </h2>
               </div>
               <div style={{ flex: 'auto' }}>
