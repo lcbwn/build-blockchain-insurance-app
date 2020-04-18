@@ -1,5 +1,5 @@
 doctype html
-html(lang='en')
+html(lang='ch')
   head
     title #{ __('Blockchain for Insurance') }#{!title ? '' : ' -' + title }
     meta(charset='utf-8')
@@ -15,14 +15,14 @@ html(lang='en')
     include _favicon
     block header_exts
   body#ibm-com.ibm-type
-    #ibm-top.ibm-landing-page
-      #ibm-masthead(role='banner', aria-label='IBM')
-        #ibm-mast-options
-          ul(role='toolbar', aria-labelledby='ibm-masthead')
-        #ibm-universal-nav
-          #ibm-home
-            a(href='/') IBM&reg;
-          ul#ibm-menu-links(role='toolbar', aria-label='Site map')
+    //#ibm-top.ibm-landing-page
+    //  #ibm-masthead(role='banner', aria-label='IBM')
+    //    #ibm-mast-options
+    //      ul(role='toolbar', aria-labelledby='ibm-masthead')
+    //    #ibm-universal-nav
+    //      #ibm-home
+    //        a(href='/') IBM&reg;
+    //      ul#ibm-menu-links(role='toolbar', aria-label='Site map')
     #ibm-content-wrapper
       header
         .ibm-sitenav-menu-container
@@ -60,15 +60,15 @@ html(lang='en')
             #ibm-content-body
               #ibm-content-main
                 block content
-      footer
-        .ibm-columns.ibm-padding-content
-          #ibm-footer-locale-selector.ibm-col-4-1.ibm-col-medium-4-2.ibm-fright(style='padding-top: 20px;')
-            h3.ibm-bold Select a country/region:
-            select#region-selector(style='width: 100%;')
-              option(value='', selected) &nbsp;
-              option(value='en') 英文
-              option(value='de') 中文
-        #ibm-footer
+      //footer
+      //  .ibm-columns.ibm-padding-content
+      //    #ibm-footer-locale-selector.ibm-col-4-1.ibm-col-medium-4-2.ibm-fright(style='padding-top: 20px;')
+      //      h3.ibm-bold Select a country/region:
+      //      select#region-selector(style='width: 100%;')
+      //        option(value='', selected) &nbsp;
+      //        option(value='en') 英文
+      //        option(value='de') 中文
+      //  #ibm-footer
 
     #block-explorer
     script(src='/js/block-explorer.bundle.js')
