@@ -1,10 +1,10 @@
 {
-  "Repair Service": "Werkstatt",
-  "Loading Repair Orders...": "Reparaturaufträge werden geladen...",
-  "No outstanding repair orders.": "Keine ausstehenden Reparaturaufträge.",
-  "Repair Order": "Reparaturauftrag",
-  "Brand": "Marke",
-  "Model": "Modell",
-  "Description": "Beschreibung",
-  "Mark Completed": "Fertig melden"
+  "Repair Service": "装备生产方",
+  "Loading Repair Orders...": "维修订单已加载...",
+  "No outstanding repair orders.": "没有待处理的维修单.",
+  "Repair Order": "维修单",
+  "Brand": "品牌",
+  "Model": "型号",
+  "Description": "描述",
+  "Mark Completed": "报告准备就绪"
 }

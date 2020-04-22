@@ -10,7 +10,9 @@ PeerOrgs:
   Domain: insurance-org
   Specs:
   - Hostname: insurance-peer
-    CommonName: "{{.Hostname}}"
+    CommonN
+
+    ame: "{{.Hostname}}"
 - Name: ShopOrg
   Domain: shop-org
   Specs:

@@ -1,91 +1,91 @@
 export default {
   "bikes": [
     {
-      "brand": "Canyon",
-      "model": "Spectral AL 6.0",
+      "brand": "Yeren",
+      "model": "AL6.0",
       "price": 3420.0,
-      "imgSrc": "/img/products/bike1.png",
-      "description": `Colour: Grey <br> Type: All-Mountain`
+      "imgSrc": "/img/products/Board1.jpeg",
+      "description": `Colour: Grey <br> Type: YBK09`
     },
     {
-      "brand": "Centurion",
-      "model": "No Pogo 800.27",
+      "brand": "Yeren",
+      "model": "Pogo800",
       "price": 2110.0,
-      "imgSrc": "/img/products/bike2.png",
-      "description": `Colour: Grey <br> Type: All-Mountain`
+      "imgSrc": "/img/products/Board2.jpeg",
+      "description": `Colour: Grey <br> Type: YBK09`
     },
     {
-      "brand": "Popal",
+      "brand": "Yeren",
       "model": "E-VO9.0",
       "price": 4050.0,
-      "imgSrc": "/img/products/bike3.png",
-      "description": `Colour: Black <br> Type: Pedelec`
+      "imgSrc": "/img/products/Board3.jpeg",
+      "description": `Colour: Black <br> Type: YBK09`
     },
     {
-      "brand": "Serious",
-      "model": "Bear Rock CX500",
+      "brand": "Yeren",
+      "model": "CX500",
       "price": 1023.0,
-      "imgSrc": "/img/products/bike4.png",
-      "description": `Colour: Black <br> Typ: Pedelec`
+      "imgSrc": "/img/products/Board4.jpeg",
+      "description": `Colour: Black <br> Type: YBK09`
     }
   ],
   "smart-phones": [
     {
-      "brand": "Samsung",
-      "model": "S7",
+      "brand": "TaoTimeClub",
+      "model": "T7",
       "price": 660,
-      "imgSrc": "/img/products/smartPhone1.png",
-      "description": `Colour: Black <br> Memory: 32GB`
+      "imgSrc": "/img/products/Components1.jpeg",
+      "description": `Colour: Black <br> I/V: 25A/1500V `
     },
     {
-      "brand": "Apple",
-      "model": "6",
+      "brand": "TaoTimeClub",
+      "model": "T2",
       "price": 630.0,
-      "imgSrc": "/img/products/smartPhone2.png",
-      "description": `Colour: Black <br> Memory: 32GB`
+      "imgSrc": "/img/products/Components2.png",
+      "description": `Colour: Black <br> I/V: 25A/1500V `
     },
     {
-      "brand": "Sony",
-      "model": "Z",
+      "brand": "TaoTimeClub",
+      "model": "TZ",
       "price": 410.0,
-      "imgSrc": "/img/products/smartPhone3.png",
-      "description": `Colour: Black <br> Memory: 32GB`
+      "imgSrc": "/img/products/Components3.jpeg",
+      "description": `Colour: Black <br> I/V: 25A/1500V `
     },
     {
-      "brand": "Google",
-      "model": "Pixel",
+      "brand": "TaoTimeClub",
+      "model": "T1",
       "price": 550.0,
-      "imgSrc": "/img/products/smartPhone4.png",
-      "description": `Colour: White <br> Memory: 32GB`
+      "imgSrc": "/img/products/Components4.jpg",
+      "description": `Colour: White <br> I/V: 25A/1500V `
     }
   ],
   "skis": [
     {
-      "brand": "Fischer",
-      "model": "RC4 Worldcup SC",
-      "price": 2300.00,
-      "imgSrc": "/img/products/ski1.png",
-      "description": `Radius in m: 13m <br> Lengths in cm: 150, 155, 160, 165, 170`
+      "brand": "Yuxun",
+      "model": "RC4",
+      "price": 200.00,
+      "imgSrc": "/img/products/Cable1.jpeg",
+      "description": `Radius in m: 13m <br> Lengths in cm: 150`
     },
     {
-      "brand": "Atomic",
-      "model": "Redster Edge GS",
-      "price": 2100.00,
-      "imgSrc": "/img/products/ski2.png",
-      "description": `Radius in m: 15 <br> Lengths in cm: 162, 169, 176, 183`
+      "brand": "Yuxun",
+      "model": "RC5",
+      "price": 200.00,
+      "imgSrc": "/img/products/Cable2.jpeg",
+      "description": `Radius in m: 15 <br> Lengths in cm: 162`
     },
     {
-      "brand": "Fischer",
-      "model": "RC4 Worldcup GS",
-      "price": 2450,
-      "imgSrc": "/img/products/ski3.png",
+      "brand": "Yuxun",
+      "model": "RC1",
+      "price": 250,
+      "imgSrc": "/img/products/Cable3.jpeg",
       "description": `Radius in m: 25 <br> Length in cm: 186`
     },
     {
-      "brand": "Nordica",
-      "model": "Dobermann GS",
+      "brand": "Yuxun",
+      "model": "RC2",
       "price": 2600,
-      "imgSrc": "/img/products/ski4.png",
+      "imgSrc": "/img/products/Cable4.jpeg",
       "description": `Radius in m: 25 <br> Length in cm: 184`
     }
   ]

@@ -1,5 +1,5 @@
 doctype html
-html(lang='ch')
+html(lang='de')
   head
     title #{ __('Blockchain for Insurance') }#{!title ? '' : ' -' + title }
     meta(charset='utf-8')
@@ -10,8 +10,8 @@ html(lang='ch')
     script(src='/js/northstar-forms.js')
     script(src='/js/common.bundle.js')
     script(src='/socket.io/socket.io.js')
-    link(rel='alternate', href='?applang=en', hreflang='en-us')
     link(rel='alternate', href='?applang=de', hreflang='de-de')
+    //link(rel='alternate', href='?applang=en', hreflang='en-us')
     include _favicon
     block header_exts
   body#ibm-com.ibm-type
@@ -68,7 +68,7 @@ html(lang='ch')
       //        option(value='', selected) &nbsp;
       //        option(value='en') 英文
       //        option(value='de') 中文
-      //  #ibm-footer
+        //#ibm-footer
 
     #block-explorer
     script(src='/js/block-explorer.bundle.js')
